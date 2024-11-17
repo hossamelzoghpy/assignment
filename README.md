@@ -36,9 +36,21 @@
 - by using vscode and this command under photo i create my own image
  ![vscode](https://github.com/user-attachments/assets/9fc2b96c-1559-47c1-9e86-3b6f19b1c654)
 - then i build this file by using command (docker build --tag my_redis .)
-- then i reun the container to see action by (docker run --name my_redis_cont my_redis)
+- then i run the container to see action by (docker run --name my_redis_cont my_redis)
 - then i take a copy from my image by(docker tag my_redis hossamelzoghpy/my_redis)
 - then i push this image to my repo in dockerhub
 - you can find this image in this link (https://hub.docker.com/r/hossamelzoghpy/radis)
+*****************************************************************************************************************************************************
+# Task-4
+- Dockerize a Angular App and push your image to Dockerhub
 
+# Answer
+- by using vscode and this command under photo i create my own image
+ ![angular](https://github.com/user-attachments/assets/587b81fb-ace1-4a00-97f2-825ee1c799a6)
 
+- then i build this file by using command (docker build --tag my_angular .)
+- then i run the container to see results by (docker run --name my_angular_cont my_angular)
+- then i take a copy from my image by(docker tag my_angular hossamelzoghpy/my_angular:1.0)
+- then i login in my dockerhub
+- then i push this image to my repo in dockerhub by (docker push hossamelzoghpy/my_angular:1.0)
+- you can find this image in this link (https://hub.docker.com/r/hossamelzoghpy/my_angular)
